@@ -84,5 +84,4 @@ instance_type_value = "t3.medium" # t3.medium instance type
 key_name_value = "nhom16" # my key pair name
 volume_size_value = 20
 volume_type_value = "gp2" # General Purpose SSD (gp2) volume type
-ec2_tag_name_dev_value = "nhom16_ec2_public_dev"
-ec2_tag_name_prod_value = "nhom16_ec2_public_prod"
+ec2_tag_name_value = "nhom16_ec2_public"

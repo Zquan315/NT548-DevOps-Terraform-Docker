@@ -152,11 +152,7 @@ variable "volume_type_value" {
   type        = string
 }
 
-variable "ec2_tag_name_dev_value" {
-  description = "Tag name for the EC2 instance"
-  type        = string 
-}
-variable "ec2_tag_name_prod_value" {
+variable "ec2_tag_name_value" {
   description = "Tag name for the EC2 instance"
   type        = string 
 }
