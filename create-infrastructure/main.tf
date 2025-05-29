@@ -94,7 +94,8 @@ module "ec2_instance_module" {
   security_group_id_public    = [module.security_group_module.nhom16_security_group_public_id]
   volume_size                 = var.volume_size_value
   volume_type                 = var.volume_type_value 
-  ec2_tag_name                = var.ec2_tag_name_value 
+  ec2_tag_name_dev            = var.ec2_tag_name_dev_value 
+  ec2_tag_name_prod           = var.ec2_tag_name_prod_value
   # eip
   region_network_border_group = var.region_value
 }

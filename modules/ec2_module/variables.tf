@@ -50,7 +50,11 @@ variable "volume_type" {
   description = "Type of the root volume"
   type        = string
 }
-variable "ec2_tag_name" {
+variable "ec2_tag_name_dev" {
+  description = "Tag name for the EC2 instance"
+  type        = string 
+}
+variable "ec2_tag_name_prod" {
   description = "Tag name for the EC2 instance"
   type        = string 
 }
